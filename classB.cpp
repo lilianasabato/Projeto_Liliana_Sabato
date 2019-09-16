@@ -13,7 +13,8 @@ class B{
 		void setB(int b1, float b2);
 		int getB1();
 		float getB2();		
-		
+		void MB3();
+
 };
 
 void B::setB(int b1, float b2){
@@ -33,4 +34,7 @@ void B::MB1(){
 }
 void B::MB2(){
 	cout<<"MB2"<<endl;
+}
+void B::MB3(){
+	cout<<"MB3"<<endl;
 }
