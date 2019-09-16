@@ -6,7 +6,8 @@ class D{
 		string D2;
 	public:
 		void MD1();
-		void MD2();		
+		void MD2();
+		void MD3();
 		
 };
 void D::MD1(){
@@ -14,4 +15,7 @@ void D::MD1(){
 }
 void D::MD2(){
 	cout<<"Criando metodo: MD1"<<endl;
+}
+void D::MD4(){
+	cout<<"Criando metodo: MD4"<<endl;
 }
