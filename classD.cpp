@@ -7,11 +7,14 @@ class D{
 	public:
 		void MD1();
 		void MD2();		
-		
+		void MD3();	
 };
 void D::MD1(){
 	cout<<"Criando metodo: MD1"<<endl;
 }
 void D::MD2(){
 	cout<<"Criando metodo: MD1"<<endl;
+}
+void D::MD3(){
+	cout<<"Criando metodo: MD3"<<endl;
 }
